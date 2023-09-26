@@ -419,14 +419,14 @@ if (window.innerWidth <= 675) {
   inputForm.forEach((input) => {
     input.addEventListener("focus", () => {
       spanInput.forEach((span) => {
-        if (span.getAttribute("id") === input.getAttribute("id")) {
+        if (span.getAttribute("id") === input.getAttribute("class")) {
           span.style.cssText = `color: #20b7ee;
-          transform: translateY(-38px);
-          font-size: .8rem;`;
+        transform: translateY(-38px);
+        font-size: .7rem;`;
         }
       });
       iInput.forEach((i) => {
-        if (i.getAttribute("id") === input.getAttribute("id")) {
+        if (i.getAttribute("id") === input.getAttribute("class")) {
           i.style.height = `52px`;
         }
       });
@@ -436,21 +436,21 @@ if (window.innerWidth <= 675) {
       let inputValue = input.value;
 
       spanInput.forEach((span) => {
-        if (span.getAttribute("id") === input.getAttribute("id")) {
+        if (span.getAttribute("id") === input.getAttribute("class")) {
           // ketika dalam input terdapat value
           if (inputValue) {
             span.style.cssText = `color: #20b7ee;
-              transform: translateY(-38px);
-              font-size: .8rem;`;
+            transform: translateY(-38px);
+            font-size: .7rem;`;
           } else {
             //jika dalam input tidak terdapat value
             span.style.cssText = `color: gray;
-            transform: translateY(0px);
-            font-size: .9rem;`;
+          transform: translateY(0px);
+          font-size: .8rem;`;
           }
         }
         iInput.forEach((i) => {
-          if (i.getAttribute("id") === input.getAttribute("id")) {
+          if (i.getAttribute("id") === input.getAttribute("class")) {
             if (inputValue) {
               i.style.height = `52px`;
             } else {
