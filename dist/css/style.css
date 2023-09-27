@@ -473,12 +473,6 @@
 .skills .card .box a {
   padding: 10px;
   transition: all ease-in-out 0.2s;
-  filter: grayscale(100%);
-}
-
-.skills .card .box a:hover {
-  filter: grayscale(0);
-  scale: 1.15;
 }
 
 .second-wave {
