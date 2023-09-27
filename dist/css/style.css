@@ -1265,6 +1265,12 @@ footer .row .col h2 .underline-3 span {
   .contact .text-center p {
     font-size: 14px;
   }
+  .contact .contact-form .inputBox input {
+    font-size: 0.9rem;
+  }
+  .contact .contact-form .inputBox textarea {
+    font-size: 0.9rem;
+  }
   .portofolio .content .row .row-icon i {
     width: 30px;
     height: 30px;

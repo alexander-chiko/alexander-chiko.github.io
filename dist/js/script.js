@@ -422,13 +422,13 @@ if (window.innerWidth <= 675) {
       spanInput.forEach((span) => {
         if (span.getAttribute("id") === input.getAttribute("class")) {
           span.style.cssText = `color: #20b7ee;
-        transform: translateY(-38px);
+        transform: translateY(-35px);
         font-size: .7rem;`;
         }
       });
       iInput.forEach((i) => {
         if (i.getAttribute("id") === input.getAttribute("class")) {
-          i.style.height = `52px`;
+          i.style.height = `45px`;
         }
       });
     });
@@ -441,7 +441,7 @@ if (window.innerWidth <= 675) {
           // ketika dalam input terdapat value
           if (inputValue) {
             span.style.cssText = `color: #20b7ee;
-            transform: translateY(-38px);
+            transform: translateY(-35px);
             font-size: .7rem;`;
           } else {
             //jika dalam input tidak terdapat value
@@ -453,7 +453,7 @@ if (window.innerWidth <= 675) {
         iInput.forEach((i) => {
           if (i.getAttribute("id") === input.getAttribute("class")) {
             if (inputValue) {
-              i.style.height = `52px`;
+              i.style.height = `45px`;
             } else {
               i.style.height = `4px`;
             }
@@ -468,13 +468,13 @@ if (window.innerWidth <= 675) {
     spanInput.forEach((span) => {
       if (span.getAttribute("id") === textareaForm.getAttribute("class")) {
         span.style.cssText = `color: #20b7ee;
-      transform: translateY(-50px);
+      transform: translateY(-40px);
       font-size: .8rem;`;
       }
     });
     iInput.forEach((i) => {
       if (i.getAttribute("id") === textareaForm.getAttribute("class")) {
-        i.style.height = `17.5rem`;
+        i.style.height = `12.8rem`;
       }
     });
   });
@@ -484,7 +484,7 @@ if (window.innerWidth <= 675) {
       if (span.getAttribute("id") === textareaForm.getAttribute("class")) {
         if (inputValue) {
           span.style.cssText = `color: #20b7ee;
-        transform: translateY(-50px);
+        transform: translateY(-40px);
         font-size: .8rem;`;
         } else {
           span.style.cssText = `color: gray;
@@ -496,7 +496,7 @@ if (window.innerWidth <= 675) {
     iInput.forEach((i) => {
       if (i.getAttribute("id") === textareaForm.getAttribute("class")) {
         if (inputValue) {
-          i.style.height = `17.5rem`;
+          i.style.height = `12.8rem`;
         } else {
           i.style.height = `4px`;
         }
