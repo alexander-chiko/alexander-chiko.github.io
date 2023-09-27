@@ -160,7 +160,7 @@
 
 .navlist li a {
   position: relative;
-  font-size: var(--p-font);
+  font-size: 1.2rem;
   color: var(--text-dark);
   font-weight: 600;
   margin-left: 2rem;
@@ -241,7 +241,7 @@
   gap: 40px;
   justify-content: space-between;
   align-items: center;
-  height: 70vh;
+  height: 70%;
   width: 100%;
   padding: 300px 10% 90px;
 }
@@ -377,8 +377,8 @@
 .about {
   /* background: var(--background-secondary); */
   background-image: linear-gradient(to bottom, #1aceb9, transparent);
-  height: 100vh;
   padding: 20px 8% 20px;
+  margin-bottom: 8%;
 }
 
 .about .text-center h2 span {
@@ -394,7 +394,7 @@
 }
 
 .about aside {
-  flex-basis: 50%;
+  flex-basis: 100%;
   border: 2px solid var(--text-primary);
   box-shadow: 0 0 6px var(--text-primary);
   padding: 2rem;
@@ -443,7 +443,7 @@
 }
 
 .skills {
-  flex-basis: 50%;
+  flex-basis: 100%;
   background-color: transparent;
 }
 
@@ -496,6 +496,7 @@
 
 .certificate {
   user-select: none;
+  margin-bottom: 10%;
 }
 
 .certificate .text-center h2 span {
@@ -510,7 +511,6 @@
   align-items: center;
   justify-content: center;
   padding: 0 35px;
-  margin-bottom: 200px;
 }
 
 .certificate article .wrapper {
@@ -973,7 +973,6 @@ footer .row .col h2 .underline-3 span {
     padding: 100px 10% 90px;
   }
   .about {
-    height: 170%;
     margin-bottom: 60px;
   }
   .about .container {
@@ -1114,6 +1113,9 @@ footer .row .col h2 .underline-3 span {
   form .inputBox span {
     font-size: 0.9rem;
   }
+  .certificate {
+    margin-bottom: 20%;
+  }
 }
 @media screen and (max-width: 621px) {
   .about {
@@ -1151,7 +1153,7 @@ footer .row .col h2 .underline-3 span {
     padding: 8px 14px;
   }
   .hero {
-    height: 100vh;
+    height: 100%;
   }
   .hero .sliders .img {
     width: 344px;

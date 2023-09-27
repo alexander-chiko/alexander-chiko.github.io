@@ -108,7 +108,8 @@ let isDragging = false,
   startScrollLeft,
   timeoutId;
 
-let cardPerView = Math.round(box.offsetWidth / firstCardWidth); //3
+// let cardPerView = Math.round(box.offsetWidth / firstCardWidth); //3
+let cardPerView = 4;
 
 boxChildrens.slice(0, cardPerView).forEach((card) => {
   box.insertAdjacentHTML("beforeend", card.outerHTML);
